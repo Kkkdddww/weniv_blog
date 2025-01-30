@@ -5,7 +5,7 @@ f(0) and f(1). Also, calculation of f(x) takes a long time, so we want to minimi
 
 > Challenging : Can we decide whether the value of f(0) and f(1) are the same or different only through a single calculation?
 
-> if we use the **quantum superposition** of the input state and **quantum interference**
+> we need to use the **quantum superposition** of the input state and **quantum interference**
 
 
 
