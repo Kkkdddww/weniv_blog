@@ -7,6 +7,6 @@ f(0) and f(1). Also, calculation of f(x) takes a long time, so we want to minimi
 
 >if we use the **quantum superposition** of the input state and **quantum interference**
 
-> 
+
 
 
