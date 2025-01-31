@@ -22,4 +22,10 @@ we makes another entanglement between Q and Alice.
 4.&nbsp; Bob receives a and b from Alice, and depending on the values of these bits he performs several operation.
 
 
+**Analysis**
+
+![회로](img/QT/QTcircuit.png)
+
+![계산](img/QT/QTcal.png)
+
 
