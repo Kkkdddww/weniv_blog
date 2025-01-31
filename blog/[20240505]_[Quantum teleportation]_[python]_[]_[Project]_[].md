@@ -17,9 +17,9 @@ sender (Alice) and reciever (Bob).
 > Hardamard gate makes **superposion** and c-not gate makes **entanglement**.
 we makes another entanglement between Q and Alice.
 
-3. Alice measures both A and Q, with a standard measurement and transmits classical outcomes to Bob. Let measurement outcome of A as a and Q as b.
+3.&nbsp; Alice measures both A and Q, with a standard measurement and transmits classical outcomes to Bob. Let measurement outcome of A as a and Q as b.
 
-4. Bob receives a and b from Alice, and depending on the values of these bits he performs several operation.
+4.&nbsp; Bob receives a and b from Alice, and depending on the values of these bits he performs several operation.
 
 
 
