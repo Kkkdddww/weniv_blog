@@ -1,6 +1,6 @@
 ### CHSH game
 
-* hello world
+
 
 
 
