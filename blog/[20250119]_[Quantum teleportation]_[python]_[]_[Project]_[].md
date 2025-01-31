@@ -57,6 +57,32 @@ I'm going to use Jupyter notebook.
 
 ![코드3](img/QT/code3.png)
 
+![코드4](img/QT/code4.png)
+
+> We need to generate Unitary gate. According to postulate of quantum mechanics, every transform can be described by unitary map. U|0> = a|0> + b|1>. Then, when we apply inverse of these U gate, we can get inital state |0>. Using this method to check protocal works correctly.
+
+![코드5](img/QT/code5.png)
+
+> Appending Unitary gate and its inverse to first whole gate.
+> Output result
+
+![코드6](img/QT/code6.png)
+
+![코드7](img/QT/code7.png)
+
+> This simulation tells that Bob's measurement always has |0> state. Because we put X and Z gate for specific condition. Also, every state has probability that near by 1/4.
+
+> But why not the probaaility is accurately 1/4? Because of the statistical error.
+![에러](img/QT/error.png)
+Considering standard deviation, the result makes sense. If we simulate 1 million times, the result shows almost accurately 1/4.
+
+![코드9](img/QT/code9.png)
+
+> This result shows that we simulate 1024 times.
 
 
+**Reference**
+IBM Quantum documantion
+Zubairy[Quantum Mechanics for Beginnner]
+Nealson,Chuang[Quantum computation and Quantum information]
 
