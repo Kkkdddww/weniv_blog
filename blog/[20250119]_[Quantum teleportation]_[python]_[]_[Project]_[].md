@@ -10,7 +10,7 @@ sender (Alice) and reciever (Bob).
 
 1.&nbsp; Make the entangled quantum state between Alice and Bob.
 
-![얽힘상태](img/entangled.png)
+![얽힘상태](img/QT/entangled.png)
 
 2.&nbsp; Alice performs a **controlled-NOT operation** on the pair (A,Q). Q is the control qubit and A is the target qubit. and then performs a **hadamard operation** on Q.
 
@@ -30,10 +30,13 @@ we makes another entanglement between Q and Alice.
 
 **Conclusion**
 
-1. In all four cases for Bob's operation, final result is same with Q qubit.
+1.&nbsp; In all four cases for Bob's operation, final result is same with Q qubit.
 So, the teleportation protocol works correctly. Then, we might think that this teleportation is faster than light. It seems that quantum information transmit to bob immediately. But, Bob need to take several operation according to Alice's classical transportation. Quantum teleportaion protocal needs classical transportation. So, Superluminal transportation not happens!
 
-2. Bob can get four cases of information that happens 1/4 probability. This means no cloning theorem is correct.
+2.&nbsp; Bob can get four cases of information that happens 1/4 probability. This means no cloning theorem is correct.
+
+
+**Let's implement on IBM qiskit using python!**
 
 
 
