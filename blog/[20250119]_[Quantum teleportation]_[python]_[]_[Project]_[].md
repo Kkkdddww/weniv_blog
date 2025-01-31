@@ -83,6 +83,8 @@ Considering standard deviation, the result makes sense. If we simulate 1 million
 **Reference**
 
 1.&nbsp; IBM Quantum documantion
+
 2.&nbsp; Zubairy[Quantum Mechanics for Beginnner]
+
 3.&nbsp; Nealson,Chuang[Quantum computation and Quantum information]
 
