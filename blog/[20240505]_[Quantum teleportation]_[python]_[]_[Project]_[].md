@@ -6,10 +6,7 @@ sender (Alice) and reciever (Bob).
 
 * A = Alice , B = Bob , Q = Qubit that Alice wish to send
 
-'''
-This is an overview of the protocol, and I will go through the detailed calculations with the circuit later.
-'''
-
+**This is an overview of the protocol, and I will go through the detailed calculations with the circuit later.**
 
 1. Make the entangled quantum state between Alice and Bob.
 
