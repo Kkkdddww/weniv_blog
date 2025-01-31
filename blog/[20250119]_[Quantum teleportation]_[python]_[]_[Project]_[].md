@@ -37,6 +37,25 @@ So, the teleportation protocol works correctly. Then, we might think that this t
 
 
 **Let's implement on IBM qiskit using python!**
+I'm going to use Jupyter notebook.
+
+![코드1](img/QT/code1.png)
+
+> QuantumCircuit : make and manipulate quantum circuit , QuantumRegister : make a set of qubit , ClassicalRegister : make a set of classic bit.
+
+> AerSimulator : simulate quantum circuit, not a real quantum computer.
+
+> plot_histogram : draw histogram of result , array_to_latex : transform array to latex.
+
+> marginal_distribution : calculate distribution of qubit from measurement.
+
+> Ugate : import unitary gate , pi : pi(math) , random : generate random number.
+
+![코드2](img/QT/code2.png)
+
+> Output result
+
+![코드3](img/QT/code3.png)
 
 
 
