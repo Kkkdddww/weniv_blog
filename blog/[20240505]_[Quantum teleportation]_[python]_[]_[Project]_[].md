@@ -8,11 +8,11 @@ sender (Alice) and reciever (Bob).
 
 **This is an overview of the protocol, and I will go through the detailed calculations with the circuit later.**
 
-1. Make the entangled quantum state between Alice and Bob.
+1.&nbsp; Make the entangled quantum state between Alice and Bob.
 
 ![얽힘상태](img/entangled.png)
 
-2. Alice performs a **controlled-NOT operation** on the pair (A,Q). Q is the control qubit and A is the target qubit. and then performs a **hadamard operation on Q.
+2.&nbsp; Alice performs a **controlled-NOT operation** on the pair (A,Q). Q is the control qubit and A is the target qubit. and then performs a **hadamard operation on Q.
 
 > Hardamard gate makes **superposion** and c-not gate makes **entanglement**.
 we makes another entanglement between Q and Alice.
