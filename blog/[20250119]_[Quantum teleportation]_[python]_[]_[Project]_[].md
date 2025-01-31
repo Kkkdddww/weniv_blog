@@ -64,7 +64,6 @@ I'm going to use Jupyter notebook.
 ![코드5](img/QT/code5.png)
 
 > Appending Unitary gate and its inverse to first whole gate.
-> Output result
 
 ![코드6](img/QT/code6.png)
 
