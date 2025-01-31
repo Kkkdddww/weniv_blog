@@ -10,6 +10,11 @@ sender (Alice) and reciever (Bob).
 
 ![얽힘상태](img/entangled.png)
 
+2. Alice performs a **controlled-NOT operation** on the pair (A,Q). Q is the control qubit and A is the target qubit. and then performs a **hadamard operation on Q.
 
+> Hardamard gate makes **superposion** and c-not gate makes **entanglement**.
+we makes another entanglement between Q and Alice.
+
+3. Alice measures both A and Q, with a standard measurement and transmits classical outcomes to Bob. Let measurement outcome of A as a and Q as b.
 
 
