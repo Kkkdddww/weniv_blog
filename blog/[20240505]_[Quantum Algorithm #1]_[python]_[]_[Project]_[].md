@@ -7,5 +7,16 @@ Challenging : Can we decide whether the value of **f(0)** and **f(1)** are the *
 Yes! When we need to use the **quantum superposition** of the input state and **quantum interference**
 
 
+![싱글](img/QAD/single.png)
+
+Our goal is to check constant (value is smae) or balanced (value is different).
+
+**Classically, We have to take two measurement.** For example, one for checking f(0) and two for checking f(1). And we can say that It's same or different. 
+
+Then, How about quantum algorithm?
+
+Here is quantum circuit for Deutsch's problem.
+
+
 
 
