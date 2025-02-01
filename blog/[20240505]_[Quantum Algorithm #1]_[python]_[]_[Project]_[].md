@@ -27,5 +27,24 @@ Here is quantum circuit for Deutsch's problem.
 
 To analyze Deutsch's algorithm, we will trace through the action of the circuit.
 
+![계산](img/QAD/cal.png)
+
+If the final measuremnet of x qubit is |0>, then value is constant. If not, the value is balanced. Like this, we need only **one** measurement. 
+
+
+Now, We will implement for using Python.
+
+Before we make code, I will define unitary gate for four case. Because I can't generalize unique modulo 2 addition into python code. So, I will define 4 gate to work same role with unitary gate.
+
+![코드1](img/QAD/code1.png)
+
+The unitary gate for deutsch algorithm operate like this.
+
+![코드2](img/QAD/code2.png)
+
+This is 4 gate that works same role with unitary gate for deutsch algorithm.
+
+In **case1,** we need **no gate.** In case2, we need **CNOT gate.** In **case3,** we need **CNOT gate and X gate.** In **case4,** we need **X gate.**
+
 
 
