@@ -46,5 +46,7 @@ This is 4 gate that works same role with unitary gate for deutsch algorithm.
 
 In **case1,** we need **no gate.** In case2, we need **CNOT gate.** In **case3,** we need **CNOT gate and X gate.** In **case4,** we need **X gate.**
 
+With this 4 gate , we can simulate Deutsch algorithm! 
 
+Here is code. I use jupyther notebook workspace.
 
