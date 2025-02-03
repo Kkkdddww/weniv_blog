@@ -50,3 +50,16 @@ With this 4 gate , we can simulate Deutsch algorithm!
 
 Here is code. I use jupyther notebook workspace.
 
+![코드3](img/QAD/code3.png)
+
+I definite 4 case of function which works for unitary gate. And I display unitary gate for function 3.
+
+![코드4](img/QAD/code4.png)
+
+I definite a circuit for using deutsch algorithm we talked about. In center, the unitary gate that we definite before is appending. 
+
+![코드5](img/QAD/code5.png)
+
+This is the algorithm that checks constant or balanced. As we talked before, if we measure 0, it's constant and measure 1, it's balanced.
+
+In this case, we consider function3 ( x'). So, the result comes 'balanced'.
