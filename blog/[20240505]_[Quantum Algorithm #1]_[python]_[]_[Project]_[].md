@@ -103,4 +103,4 @@ This is a specific calculation of first hadamard gate.
 
 This is a specific calculation of unitary gate, second hadamard gate and measurement.
 
-The special thing is that we measure |all 0>. 
+The special thing is that we measure |all 0>.
