@@ -86,3 +86,21 @@ We need other form of hadamard operation to calculate well.
 
 When we use this form, we can calculate Unitary gate well.
 
+Also, we need other method to operate unitary gate. A.K.A **phase kickback**
+
+![pka](img/QAD/PKB.png)
+
+
+If you understand other form of hadamard gate and phase kickback, it's ready!
+
+We operate hadamard gate, unitary gate, hadarmard gate, and measure!
+
+![코드6](img/QAD/code6.png)
+
+This is a specific calculation of first hadamard gate.
+
+![코드7](img/QAD/code7.png)
+
+This is a specific calculation of unitary gate, second hadamard gate and measurement.
+
+The special thing is that we measure |all 0>. 
