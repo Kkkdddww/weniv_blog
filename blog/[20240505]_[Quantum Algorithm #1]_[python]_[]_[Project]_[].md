@@ -66,3 +66,20 @@ In this case, we consider function3 ( x'). So, the result comes 'balanced'.
 
 This is all about **Deutsch's algorithm**. In this algorithm, the advantage is not that strong. Because classic is two measurement and quantum is one measurement. **Just one versus two.** Then, I will show you **Deutsch-Josza algorithm** that has more advantage. It's just **expansion** of Deutsch algorithm!
 
+![조사](img/QAD/jozsa.png)
+
+This is basic circuit. we need to perform hadamard operation on each n qubit.
+
+So, the Deutsch Jozsa algorithm's problem just expands Deutsch algorithm.
+
+**f : {0,1}^n -> {0,1} vs f : {0,1} -> {0,1}**
+**Checking constant or balanced**
+**constant : same function value(all 0 or all 1)**
+**balanced : not constant**
+
+We need other form of hadamard operation to calculate well.
+
+![h](img/QAD/H.png)
+
+When we use this form, we can calculate Unitary gate well.
+
