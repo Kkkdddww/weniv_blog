@@ -63,3 +63,6 @@ I definite a circuit for using deutsch algorithm we talked about. In center, the
 This is the algorithm that checks constant or balanced. As we talked before, if we measure 0, it's constant and measure 1, it's balanced.
 
 In this case, we consider function3 ( x'). So, the result comes 'balanced'.
+
+This is all about **Deutsch's algorithm**. In this algorithm, the advantage is not that strong. Because classic is two measurement and quantum is one measurement. **Just one versus two.** Then, I will show you **Deutsch-Josza algorithm** that has more advantage. It's just **expansion** of Deutsch algorithm!
+
