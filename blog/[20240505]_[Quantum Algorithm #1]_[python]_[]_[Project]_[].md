@@ -104,3 +104,38 @@ This is a specific calculation of first hadamard gate.
 This is a specific calculation of unitary gate, second hadamard gate and measurement.
 
 The special thing is that we measure |all 0>.
+
+Now, I will implement on IBM qiskit using python.
+
+First, we need to make a code that works for **unitary gate.** This code is quite difficult. The whole code is like this.
+
+![코드8](img/QAD/code8.png)
+
+```python
+def dj_function(num_qubits):
+    qc = QuantumCircuit(num_qubits + 1)
+    if np.random.randint(0, 2):
+        # Flip output qubit with 50% chance
+        qc.x(num_qubits)
+    if np.random.randint(0, 2):
+        # return constant circuit with 50% chance
+        return qc
+```
+
+dj_function is for unitary operation.
+
+In this function, we make x qubits and y qubits. Why I make quantumcircuit for n + 1 qubit is that for y qubit. (+1 for y).
+
+In first if, we make random number either 0 or 1. When 1 comes out, we append x gate on last qubit (y qubit). When 0 comes out, we do not thing.
+
+In second if, we also make random number either 0 or 1. When 1 comes out, just return that quantum circuit. When 0 comes out, just continue.
+
+This two of if statement operate when it is **constant function**.
+
+![코드9](img/QAD/code9.png)
+
+* First if statement : 1 -> f(x) = 1 (constant) / 0 -> f(x) = 0 (constant)
+
+* Second if statement : 1 -> constant's U gate / 0 -> follow more code
+
+
