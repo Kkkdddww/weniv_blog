@@ -167,3 +167,52 @@ We make random half state that have output of "1"
 
 And we definite "add_cx". Keep in mind this function is in "dj_function"
 
+Let's understand 'enumerate(reversed(bit_string))'
+
+![코드10](img/QAD/코드10.png)
+
+```python
+for state in on_states:
+        qc.barrier()  # Barriers are added to help visualize how the functions are created. They can safely be removed.
+        qc = add_cx(qc, f"{state:0b}")
+        qc.mcx(list(range(num_qubits)), num_qubits)
+        qc = add_cx(qc, f"{state:0b}")
+
+    qc.barrier()
+
+    return qc
+```
+
+Last code of dj_function!
+
+`on_states' is qubit number that have output of 1.
+
+Then, Using add_cx function to make real state in circuit. 
+
+Next, operate MCX gate to operate same rule for unitary gate.
+
+![코드11](img/QAD/code11.png)
+
+
+In my case, the result unitary gate comes out like this.
+
+![코드12](img/QAD/code12.png)
+
+
+Next is making whole circuit for Deutsch-Jozsa algorithm
+
+```python
+def compile_circuit(function: QuantumCircuit):
+    """
+    Compiles a circuit for use in the Deutsch-Jozsa algorithm.
+    """
+    n = function.num_qubits - 1
+    qc = QuantumCircuit(n + 1, n)
+    qc.x(n)
+    qc.h(range(n + 1))
+    qc.compose(function, inplace=True)
+    qc.h(range(n))
+    qc.measure(range(n), range(n))
+    return qc
+```
+
