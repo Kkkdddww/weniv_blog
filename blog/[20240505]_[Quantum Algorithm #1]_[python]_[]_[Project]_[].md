@@ -134,8 +134,36 @@ This two of if statement operate when it is **constant function**.
 
 ![코드9](img/QAD/code9.png)
 
-* First if statement : 1 -> f(x) = 1 (constant) / 0 -> f(x) = 0 (constant)
+> First if statement : 1 -> f(x) = 1 (constant) / 0 -> f(x) = 0 (constant)
 
-* Second if statement : 1 -> constant's U gate / 0 -> follow more code
+> Second if statement : 1 -> constant's U gate / 0 -> follow more code
 
+
+```python
+ # next, choose half the possible input states
+    on_states = np.random.choice(
+        range(2**num_qubits),  # numbers to sample from
+        2**num_qubits // 2,  # number of samples
+        replace=False,  # makes sure states are only sampled once
+    )
+```
+
+This code is the first step of unitary gate for balanced function. (Half 0, Half 1).
+
+n qubit have 2^n state. So, we have to make half random number for state.
+
+For example, the output is [7 4 2 1] for that code. Then only four input stae ( |111> |100> |010> |001> ) have output of "1". And other state have output of "0"
+
+We make random half state that have output of "1"
+
+
+```python
+ def add_cx(qc, bit_string):
+        for qubit, bit in enumerate(reversed(bit_string)):
+            if bit == "1":
+                qc.x(qubit)
+        return qc
+```
+
+And we definite "add_cx". Keep in mind this function is in "dj_function"
 
