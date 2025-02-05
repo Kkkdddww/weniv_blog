@@ -232,6 +232,6 @@ Now we will simulate to check either constant or balanced.
 
 The code is this.
 
-![코드13](img/QAD/code13.png)
+![코드13](img/QAD/codee13.png)
 
 When '1' is in measurement result, then it is balanced function.
