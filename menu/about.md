@@ -1,7 +1,5 @@
 # about me
-**My name is Dongwoo Kang.**
-
-**I'm Kyung Hee University student.**
+**My name is Dongwoo Kang.** @KHU
 
 **I'm majoring in Applied physics & Quantum Information Convergence.**
 
