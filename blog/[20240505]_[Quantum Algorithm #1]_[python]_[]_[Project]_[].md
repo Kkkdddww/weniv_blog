@@ -169,7 +169,7 @@ And we definite "add_cx". Keep in mind this function is in "dj_function"
 
 Let's understand 'enumerate(reversed(bit_string))'
 
-![코드10](img/QAD/코드10.png)
+![코드10](img/QAD/code10.png)
 
 ```python
 for state in on_states:
@@ -216,3 +216,20 @@ def compile_circuit(function: QuantumCircuit):
     return qc
 ```
 
+n is the only input qubit (x qubit).
+
+Next, make quantum circuit that has n + 1 qubit (x, y) and n classical bit for saving measurement.
+
+Next, append x gate on last qubit (y qubit). And append H gate on every qubit (x, y) qubit.
+
+Next, append Unitary gate (dj_function for code).
+
+Lastly, append x gate on only n qubit (x). And measure it and save on classical bit.
+
+Now we will simulate to check either constant or balanced.
+
+The code is this.
+
+![코드13](img/QAD/code13.png)
+
+When '1' is in measurement result, then it is balanced function.
